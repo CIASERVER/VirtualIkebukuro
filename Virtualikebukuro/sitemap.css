@@ -1,0 +1,97 @@
+/* mainÇÃcss */
+
+#main { /* ïKóvÇ…âûÇ∂Çƒè¡ãé */
+	height: auto;
+	margin-bottom: 200px;
+	
+}
+
+.hide {
+	display: none;
+}
+
+#title-img {
+	position: fixed;
+	top: 0;
+	left: 0;
+	index: 0;
+	height: 1500px;
+}
+
+.sub-title {
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-top: 90px;
+	color: #fff;
+}
+
+/* main-contents */
+#main-contents {
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	width: 70%;
+	height: auto;
+	index: 10;
+	background-color: rgba(240,240,240,0.9);
+	border-radius: 10px;
+	border: 1px solid #000;
+	padding: 25px 50px 50px 50px;
+}
+
+h4{
+	font-size: 20px;
+	padding-left: 15px;
+	border-left: 7px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.item-zone a{
+	font-size: 19px;
+}
+
+.item-zone {
+	height: 300px;
+	width: 48%;
+	margin-right: 2%;
+	display: block;
+	float: left;
+}
+
+.zone {
+	height: 600px;
+	width: 100%;
+	display: block;
+}
+
+.item-zone a {
+	display: block;
+	margin: 10px;
+}
+
+footer {
+	position: relative;
+	index: 10;
+}
+
+@media(max-width: 670px){
+	
+	.zone {
+		height: auto;
+	}
+	.item-zone {
+		height: auto;
+		width: 100%;
+		float: none;
+		margin: 0 0 50px 0;
+	}
+	.faqs {
+		height: auto;
+	}
+	#main-contents {
+		width: 80%;
+		padding: 25px 25px 50px 25px;
+	}
+}

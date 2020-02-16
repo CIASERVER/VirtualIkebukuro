@@ -1,0 +1,153 @@
+/* mainのcss */
+
+#main { /* 必要に応じて消去 */
+	height: auto;
+	margin-bottom: 200px;
+}
+
+/* main-contents */
+#main-contents {
+	width: 100%;
+	height: 1800px;
+}
+
+.descript {
+	height: 600px;
+	width: 100%;
+	position: relative;
+	margin: 0;
+}
+
+.descript p{
+	letter-spacing: 5px;
+	line-height: 30px;
+}
+
+.img-item {
+	width: 100%;
+	height: 600px;
+	border: 1px solid #667;
+}
+
+.main-item {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	margin-top: 180px;
+	text-align: center;
+	color: white;
+}
+
+/* sub-contents */
+
+.topic-item {
+	width: 100%;
+	height: 170px;
+	display: block;
+	margin-bottom: 30px;
+	border-radius: 100px;
+	border: 2px solid #777;
+	color: rgb(10,50,100);
+}
+
+.topic-img {
+	width: 20%;
+	height: 166px;
+	float: right;
+	border-radius: 0px 100px 100px 0 / 0px 100px 100px 0;
+}
+
+.item {
+	width: 80%;
+	float: left;
+}
+
+.topic-text {
+	padding: 0 20px;
+	text-align: center;
+}
+/* メディアクエリ(タブレット)  */
+@media(max-width: 1000px){
+	#main-contents {
+		height: 1200px;
+	}
+	.descript {
+		height: 400px;
+		width: 100%;
+		position: relative;
+		margin: 0;
+	}
+	.descript p{
+		letter-spacing: 0px;
+	}
+
+	.img-item {
+		width: 100%;
+		height: 400px;
+		border: 1px solid #667;
+	}
+	.main-item {
+		margin-top: 60px;
+	}
+}
+
+/* メディアクエリ(スマートフォン)  */
+@media(max-width: 670px){
+	/* main */
+	
+	#main { /* 必要に応じて消去 */
+		height: 2900px;
+	}
+	
+	/* メイン */
+	#main-contents {
+		width: 100%;
+		height: 1200px;
+	}
+	
+	.descript {
+		width: 100%;
+		height: 400px;
+		position: relative;	
+	}
+	
+	.img-item {
+		width: 100%;
+		height: 400px;
+	}
+	
+	.main-item {
+		position: absolute;
+		top: 25px;
+		width: 100%;
+		text-align: center;
+		color: white;
+	}
+	
+	#sub-contents {
+		width: 100%;
+		height: 549px;
+		padding: 0 5%;
+	}
+	.topic-img {
+		width: 0;
+		height: 0px;
+		float: right;
+	}
+	.topic-text {
+		width: 100%;
+		float: none;
+	}
+	.color-r {
+		border: 2px solid #F88;
+	}
+	.color-g {
+		border: 2px solid #8F8;
+	}
+	.color-b {
+		border: 2px solid #88F;
+	}
+	#main { /* 必要に応じて消去 */
+		margin-bottom: 50px;
+	}
+}

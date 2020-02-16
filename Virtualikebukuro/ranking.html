@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>バーチャル池袋</title>
+		<link rel="stylesheet" href="basic.css">
+		<link rel="stylesheet" href="ranking.css">
+		<link rel="stylesheet" href="item/fontawesome-free-5.9.0-web/css/all.css">
+		<script type="text/javascript" src="item/jquery-3.4.1.min.js"></script>
+		<style type="text/css">a {text-decoration:none;}</style>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	</head>
+	<body id="pagetop" style="margin: 0;">
+		<header>
+			<a class="header-logo" href="toppage.html">バーチャル池袋</a>
+			<div class="bars">
+				<span class="fa fa-bars menu"></span>
+			</div>
+			<div class="times">
+				<span class="fas fa-times menu"></span>
+			</div>
+			<div class="head">
+				<a href="contents/map.html">駅構内マップ</a>
+				<a href="contents/listtrain.html">電車から探す</a>
+				<a href="contents/listgate.html">出口を探す</a>
+			</div>
+		</header>
+		<div id="main"><!-- ここからbody-->
+			<img id="title-img" src="img/head/header-img3.jpeg">
+			<div class="sub-title">
+				<div class="title-text">
+					<h2 class="japanese">改札別ユーザーランキング</h2>
+					<h2 class="phrase">Ticketgate user Ranking</h2>
+					<div class="title-descript">
+						<p>各路線の改札ごとにどれほどのユーザーがいるのか<br>30人から得られた統計によるランキングになります。<br>どの路線の改札が混みやすい傾向にあるのでしょうか<br>分析していきましょう</p>
+					</div>
+				</div>
+			</div>
+			<div id="main-contents">
+				<div class="ranking">
+					<div class="right-control">
+						<h2><span class="rank normal">5位</span>東京メトロ有楽町線</h2>
+						<p>よく使うと答えた人数<span class="people">1人<span></p>
+						<p>丸ノ内線と同率で5位という結果になりました。この結果は東京メトロの路線は、有楽町線、丸ノ内線、副都心線の3路線ありますが、これらの改札は共通ではなくそれぞれ専用の改札があるため人数も分散したと考えられます</p>
+					</div>
+				</div>
+				<div class="ranking">
+					<div class="left-control">
+						<h2><span class="rank normal">5位</span>東京メトロ丸ノ内線</h2>
+						<p>よく使うと答えた人数<span class="people">1人<span></p>
+						<p>有楽町線と同率で5位という結果になりました。この結果は東京メトロの路線は、有楽町線、丸ノ内線、副都心線の3路線ありますが、これらの改札がすべて共通であったらユーザーがさらに込み合っていたかもしれません</p>
+					</div>
+				</div>
+				<div class="ranking">
+					<div class="right-control">
+						<h2><span class="rank normal">4位</span>東京メトロ副都心線</h2>
+						<p>よく使うと答えた人数<span class="people">2人<span></p>
+						<p>東京メトロの中ではユーザーが多いことになりますが、その分混みやすいということがわかります。副都心線を使う朝は余裕を持った方がいいのかもしれません</p>
+					</div>
+				</div>
+				<div class="ranking">
+					<div class="element">
+						<h2 class="big"><span class="rank" id="bronze">3位</span>西武池袋線</h2>
+						<p>よく使うと答えた人数<span class="people">3人<span></p>
+						<p>西武池袋線のユーザーは周囲にも多いのではないでしょうか。東口においては改札の位置が、比較的大きな出入り口である東口（西武鉄道）側なので初めて訪れる方でも出口を見つけるのは難しくないかもしれません。。</p>
+					</div>
+				</div>
+				<div class="ranking">
+					<div class="element">
+						<h2 class="big"><span class="rank" id="silver">2位</span>東武東上線</h2>
+						<p>よく使うと答えた人数<span class="people">6人<span></p>
+						<p>人数は3位と大きく差をつけて6人という結果になりました。朝の池袋はどの路線の改札も混みますが、東武東上線はユーザーが多い分、改札の数も4箇所と多めに設けられているのかもしれません。</p>
+					</div>
+				</div>
+				<div class="ranking">
+					<div class="element">
+						<h2 class="big"><span class="rank" id="gold">1位</span>JR線</h2>
+						<p>よく使うと答えた人数<span class="people">17人<span></p>
+						<p>この人数に至る理由には山手線、湘南新宿線、埼京線といった3両の電車が共通の改札であることが挙げられます。仮に各路線に専用の改札が設けられていたとしても17人/3車両で1両あたり5.6人がよく乗車していると答えたと考えられるため、1両あたりの人数を他と比較してもやはり需要が高い車両郡であることがわかります。</p>
+					</div>
+				</div>
+				<p id="attention">※TECで行われた小規模な統計のため結果には多少の偏りがある場合がございます。</p>
+			</div>
+		</div><!-- ここまでbody-->
+		<footer>
+			<ul id="footer-list">
+				<li><a href="#pagetop">ページトップに戻る</a></li>
+				<li><a href="team.html">制作チーム</a></li>
+				<li><a href="sitemap.html">サイトマップ</a></li>
+			</ul>
+			<div class="clears-s"></div>
+			<div id="footer-logo">
+				<h1>バーチャル池袋</h1>
+			</div>
+			<div class="clears"></div>
+			<div id="copy-right"><small>Copyright &copy TECclassA-CIAチーム All Rights Reserved.</small></div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
